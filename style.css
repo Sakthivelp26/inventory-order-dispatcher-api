@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#fff;
+}
+
+.container{
+    width:400px;
+    margin:100px auto;
+    background:#fff;
+    padding:20px;
+    box-shadow:0 0 10px #ccc;
+}
+
+h2{
+    text-align:center;
+}
+
+input{
+    width:93%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:green;
+    color:white;
+    border:none;
+}
+
+a{
+    text-decoration:none;
+}
+.products{
+    display:grid;
+    grid-template-columns:
+        repeat(4,1fr);
+    gap:20px;
+}
+
+.product{
+    background: linear-gradient(
+        45deg,
+        #7341ac 0%,
+        #303c63 50%,
+        #196372 100%
+    );
+    padding:15px;
+    border-radius:10px;
+    
+}
+.product:hover{
+    box-shadow:0 0 10px #1858c6;
+}
+.stats{
+    background: linear-gradient(
+        45deg,
+        #7341ac 0%,
+        #303c63 50%,
+        #196372 100%
+    );
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.stock{
+    padding:15px;
+    border-radius:10px;
+}
+.card{
+    color: white;
+    margin: 20px auto;
+}
+section{
+    margin: 20px 25px;
+}
+.hero{
+    background: rgba(19, 11, 28, 0.989);
+}
+button:hover{
+    color: #abb7c3;
+}
